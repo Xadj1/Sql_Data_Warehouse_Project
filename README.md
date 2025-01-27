@@ -5,7 +5,7 @@ Welcome to the Data Warehouse and Analytics Project Repository! 🚀
 This repository demonstrates a practical solution for building and utilizing a data warehouse. From designing the architecture to generating insights, it reflects real-world applications of data engineering and analytics, emphasizing scalability and efficiency.
 
 
-📖 Project Overview
+## 📖 Project Overview
 This project focuses on implementing a robust and scalable data warehousing solution, built using the Medallion Architecture. It’s structured into three key layers:
 
 Bronze Layer: Raw, unprocessed data directly from source systems.
@@ -26,12 +26,12 @@ This project demonstrates how modern data practices come together to deliver a c
 
 
 
-🚀 Project Requirements
+## 🚀 Project Requirements
 
 Building the Data Warehouse (Data Engineering):
 This project centers on creating a modern data warehouse in SQL Server to consolidate sales data for analytical reporting and better decision-making.
 
-Key Objectives:
+### Key Objectives:
 
 Develop a Centralized Data Warehouse: Integrate data from multiple systems into a unified repository.
 Data Cleaning & Quality Assurance: Address inconsistencies and ensure the data is reliable for analysis.
@@ -41,9 +41,9 @@ Comprehensive Documentation: Deliver clear, concise documentation for both busin
 
 
 
-📊 BI: Analytics & Reporting (Data Analysis)
+## 📊 BI: Analytics & Reporting (Data Analysis)
 
-Objective:
+### Objective:
 Leverage SQL-based analytics to uncover actionable insights across critical business areas:
 
 Customer Behavior: Analyze purchasing patterns, preferences, and engagement levels to identify opportunities for customer retention and growth.
@@ -51,16 +51,19 @@ Product Performance: Evaluate sales performance, profitability, and product tren
 Sales Trends: Track revenue patterns, seasonal variations, and regional performance to guide strategic planning.
 
 
-🏗️ Data Architecture
+## 🏗️ Data Architecture
 
 ![Screenshot 2025-01-27 224813](https://github.com/user-attachments/assets/341b4b31-de2c-4e7e-85a8-435e19e4ba59)
-Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
+### Bronze Layer: 
+Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+### Silver Layer:
+This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+### Gold Layer: 
+Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 
-📂 Repository Structure
-
+## 📂 Repository Structure
+```
 data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
@@ -84,5 +87,7 @@ data-warehouse-project/
 ├── LICENSE                             # License information for the repository
 ├── .gitignore                          # Files and directories to be ignored by Git
 └── requirements.txt                    # Dependencies and requirements for the project
+```
+---
 
 
